@@ -10,13 +10,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body{
     background-color: #fff;
     color: #555353;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix{
@@ -400,7 +402,7 @@ cite img{
 }
 
 /* ---------------------------------------- */
-/* SIGN UP */
+/* SECTION PLANS or SIGN UP */
 /* ---------------------------------------- */
 
 .section-plans {
@@ -445,6 +447,7 @@ cite img{
 
 .plan-price-meal {
     font-size: 80%;
+    padding: 0.75%;
 }
 
 .plan-box ul {
